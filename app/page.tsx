@@ -31,13 +31,13 @@ export default function LandingPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
-                <Image
-                  src="/logo.png"
-                  alt="Logo Zero1 do TAF"
-                  width={40}
-                  height={40}
-                  className="object-contain"
-                />
+                  <Image
+                    src="/logo.png"
+                    alt="Logo Zero1 do TAF"
+                    width={430}
+                    height={430}
+                    className="object-contain"
+                  />
               </div>
               <span className="text-xl font-bold text-white">Zero1 do TAF</span>
             </div>
@@ -583,10 +583,15 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
-                  <Target className="w-6 h-6 text-white" />
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/logo.png"
+                    alt="Logo Zero1 do TAF"
+                    width={430}
+                    height={430}
+                    className="object-contain"
+                  />
                 </div>
-                <span className="text-xl font-bold">Zero1 do TAF</span>
               </div>
               <p className="text-gray-400">Especialistas em preparação física para concursos militares e policiais.</p>
             </div>
