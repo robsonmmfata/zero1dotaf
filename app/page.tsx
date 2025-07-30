@@ -634,7 +634,7 @@ export default function LandingPage() {
                 <Link href="#" className="text-gray-400 hover:text-orange-500 transition-colors">
                   <Facebook className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-orange-500 transition-colors">
+                <Link href="https://wa.me/557592028265?text=Olá!" className="text-gray-400 hover:text-orange-500 transition-colors">
                   <MessageCircle className="w-6 h-6" />
                 </Link>
               </div>
