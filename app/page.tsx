@@ -198,7 +198,7 @@ export default function LandingPage() {
                 <CardDescription className="text-orange-100">
                   Para quem busca treinar com inteligência e disciplina
                 </CardDescription>
-                <div className="text-3xl font-bold mt-4">R$ 190,00/mês</div>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
               </CardHeader>
               <CardContent className="p-8 space-y-6">
                 <div className="space-y-4">
@@ -206,14 +206,20 @@ export default function LandingPage() {
                     <CheckCircle className="w-5 h-5 text-green-500" />
                     <span>Mentoria online com treinos personalizados via app MFIT</span>
                   </div>
+                  
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span>Avaliação quinzenal + ajustes</span>
+                    <span>Orientação Nutricional Personalizada</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span>Orientação nutricional personalizada</span>
+                    <span>Avaliação Quinzenal + Ajustes Conforme A Evolulção</span>
                   </div>
+                                    <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>Para Quem Quer Treinar Com Inteligência,Disciplina e Acompanhamento Técnico Online.</span>
+                  </div>
+                  
                 </div>
                 <Button
                   className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
@@ -232,11 +238,11 @@ export default function LandingPage() {
             {/* Presencial Tático */}
             <Card className="border-2 border-black shadow-xl">
               <CardHeader className="bg-black text-white text-center">
-                <CardTitle className="text-2xl">🔸 Presencial Tático</CardTitle>
+                <CardTitle className="text-2xl">🔸 Mentoria Tático</CardTitle>
                 <CardDescription className="text-gray-300">
-                  Para quem quer treinar presencialmente com especialista
+                  Para quem quer treinar  com especialista Online 
                 </CardDescription>
-                <div className="text-3xl font-bold mt-4">R$ 150,00/mês</div>
+                <div className="text-3xl font-bold mt-4">R$ 154,00/mês</div>
               </CardHeader>
               <CardContent className="p-8 space-y-6">
                 <div className="space-y-4">
@@ -317,6 +323,7 @@ export default function LandingPage() {
                         <CheckCircle className="w-6 h-6 text-green-500 mx-auto" />
                       </td>
                     </tr>
+
                     <tr className="bg-gray-50">
                       <td className="px-6 py-4 font-medium">Plataforma Online</td>
                       <td className="px-6 py-4 text-center">
