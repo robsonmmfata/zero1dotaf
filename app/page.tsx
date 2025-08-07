@@ -55,9 +55,6 @@ export default function LandingPage() {
               <Link href="#beneficios" className="text-white hover:text-orange-500 transition-colors">
                 Benefícios
               </Link>
-              <Link href="#depoimentos" className="text-white hover:text-orange-500 transition-colors">
-                Depoimentos
-              </Link>
               <Button
                 className="bg-orange-500 hover:bg-orange-600 text-white"
                 onClick={() =>
@@ -679,92 +676,48 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Depoimentos */}
-      <section id="depoimentos" className="py-20 bg-gray-50">
+      {/* FAQ */}
+      <section id="faq" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-black">Depoimentos de Alunos</h2>
-            <p className="text-lg text-gray-600">Veja o que nossos alunos falam sobre nós</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-black">Perguntas Frequentes</h2>
+            <p className="text-lg text-gray-600">Tire suas dúvidas sobre nossos serviços</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="shadow-lg">
-              <CardContent className="p-6 space-y-4">
-                <div className="flex items-center space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="João Silva"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
-                  />
-                  <div>
-                    <h4 className="font-bold">João Silva</h4>
-                    <div className="flex text-yellow-500">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-current" />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <p className="text-gray-600">
-                  "A metodologia da Zero1 do TAF foi fundamental para minha aprovação. Os treinos são focados e o
-                  acompanhamento é excepcional!"
-                </p>
-              </CardContent>
-            </Card>
+          <div className="max-w-3xl mx-auto">
+            <Accordion type="single" collapsible className="space-y-4">
+              <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left">Como são os treinos online?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Os treinos online são personalizados através do app MFIT, com acompanhamento quinzenal e ajustes
+                  conforme sua evolução. Você recebe orientação nutricional e suporte técnico via WhatsApp.
+                </AccordionContent>
+              </AccordionItem>
 
-            <Card className="shadow-lg">
-              <CardContent className="p-6 space-y-4">
-                <div className="flex items-center space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Maria Santos"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
-                  />
-                  <div>
-                    <h4 className="font-bold">Maria Santos</h4>
-                    <div className="flex text-yellow-500">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-current" />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <p className="text-gray-600">
-                  "Consegui melhorar meu tempo na corrida em 30% em apenas 3 meses. O plano nutricional fez toda a
-                  diferença!"
-                </p>
-              </CardContent>
-            </Card>
+              <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left">Os treinos são adaptados ao meu nível físico?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Sim! Fazemos uma avaliação física inicial para entender seu nível atual e criamos um plano
+                  personalizado. Os treinos evoluem conforme seu progresso.
+                </AccordionContent>
+              </AccordionItem>
 
-            <Card className="shadow-lg">
-              <CardContent className="p-6 space-y-4">
-                <div className="flex items-center space-x-4">
-                  <Image
-                    src="/placeholder.svg?height=60&width=60"
-                    alt="Carlos Oliveira"
-                    width={60}
-                    height={60}
-                    className="rounded-full"
-                  />
-                  <div>
-                    <h4 className="font-bold">Carlos Oliveira</h4>
-                    <div className="flex text-yellow-500">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-current" />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <p className="text-gray-600">
-                  "Treino presencial com qualidade e foco no que realmente importa. Recomendo para todos que querem
-                  passar no TAF!"
-                </p>
-              </CardContent>
-            </Card>
+              <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left">Posso cancelar quando quiser?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Sim, você pode cancelar a qualquer momento. Não temos fidelidade obrigatória, mas recomendamos pelo
+                  menos 3 meses para ver resultados significativos.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left">Qual a diferença entre os dois pacotes?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  A Mentoria Estratégica é 100% online com nutrição personalizada, enquanto o Treinamento Tático oferece
+                  treinos focados nos exercícios do TAF. Ambos incluem acompanhamento técnico especializado.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
           </div>
         </div>
       </section>
