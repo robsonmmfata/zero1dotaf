@@ -235,6 +235,275 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
+            {/* Plano “MANUAL DO ALUNO” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸 MANUAL DO ALUNO</CardTitle>
+                <CardDescription className="text-orange-100">
+                 💬Para quem quer começar com o pé direito e entender tudo sobre o TAF, com autonomia.
+
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>📕 E-book E-book completo</span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>💸Baixo custo, sem enrolação.</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>➡️Ideal para iniciantes.</span>
+                  </div>
+                                    <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>💬Para quem quer começar com o pé direito e entender tudo sobre o TAF, com autonomia.</span>
+                  </div>
+                  
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+{/* Plano “COMANDO ONLINE” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸 COMANDO ONLINE</CardTitle>
+                <CardDescription className="text-orange-100">
+                  💬Para quem busca treinar com inteligência e disciplina
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>📕 E-bookE-book</span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🍽️ Dieta personalizada</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🎯Mentoria online com ajustes e acompanhamento</span>
+                  </div>
+                                    <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>💬 Pra quem quer suporte de verdade sem sair de casa.</span>
+                    
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>➡️ Ideal pra quem precisa de disciplina guiada.</span>
+                    
+                  </div>
+                  
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+
+{/*  Plano “GUERRA FRIA” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸GUERRA FRIA</CardTitle>
+                <CardDescription className="text-orange-100">
+                 ➡️Pra quem precisa de estrutura e orientação, mas sem treino.
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🍽️Dieta personalizada</span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>Orientação Nutricional Personalizada</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🎯Mentoria online</span>
+                  </div>
+                                    <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>💬Silencioso, estratégico e focado.</span>
+                  </div>
+
+                     <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-7 h-7 text-green-500" />
+                    <span>➡️ Pra quem precisa de estrutura e orientação, mas sem treino.</span>
+                  </div>
+                  
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+{/*  Plano “AÇÃO TÁTICA” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸AÇÃO TÁTICA</CardTitle>
+                <CardDescription className="text-orange-100">
+                  (Presencial em Feira de Santana)
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🎯mentoria on-line com ajustes e acompanhamento </span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>💬Mão na massa, suor no rosto.</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>➡️ Quem é da missão, aparece.</span>
+                  </div>
+                  
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+
+
+{/*  Plano “Plano “Comando on-line”” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸AÇÃO TÁTICA</CardTitle>
+                <CardDescription className="text-orange-100">
+                  (Presencial em Feira de Santana)
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🎯mentoria on-line com ajustes e acompanhamento </span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>💬Mão na massa, suor no rosto.</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>➡️ Quem é da missão, aparece.</span>
+                  </div>
+                  
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+{/*  Plano “Plano “Na Mira”” */}
+            <Card className="border-2 border-orange-500 shadow-xl">
+              <CardHeader className="bg-orange-500 text-white text-center">
+                <CardTitle className="text-2xl">🔸Na Mira</CardTitle>
+                <CardDescription className="text-orange-100">
+                 🎯mentoria on-line com ajustes e acompanhamento.
+                </CardDescription>
+                <div className="text-3xl font-bold mt-4">R$ 133,00/mês</div>
+              </CardHeader>
+              <CardContent className="p-8 space-y-6">
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>📕 E-book </span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>🍽️Dieta personalizada</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>💬 Alinhando alimentação com conhecimento.</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-500" />
+                    <span>➡️ Pra quem quer afinar o foco e subir de nível.</span>
+                  </div>
+                </div>
+                <Button
+                  className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/557592028265?text=Olá! Tenho interesse na *Mentoria Estratégica* (R$ 190/mês). Gostaria de mais informações sobre:%0A%0A✅ Treinos personalizados via app MFIT%0A✅ Avaliação quinzenal%0A✅ Orientação nutricional%0A%0APodemos conversar?",
+                      "_blank",
+                    )
+                  }
+                >
+                  🔘 Quero essa mentoria
+                </Button>
+              </CardContent>
+            </Card>
+
+
+
+
+
             {/* Presencial Tático */}
             <Card className="border-2 border-black shadow-xl">
               <CardHeader className="bg-black text-white text-center">
@@ -271,10 +540,12 @@ export default function LandingPage() {
                   🔘 Quero essa Mentoria
                 </Button>
               </CardContent>
+              
             </Card>
           </div>
         </div>
       </section>
+      
 
       {/* Comparativo */}
       <section className="py-20 bg-gray-50">
